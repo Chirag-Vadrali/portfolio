@@ -38,7 +38,7 @@ export default function Engage() {
             <h3 className="font-sans font-bold text-2xl mb-2">Resume</h3>
             <p className="font-mono text-sm text-black/60 mb-8 flex-grow">Download full technical history and skill inventory.</p>
             <a
-              href="/Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Resume.pdf`}
               download="Chirag_Vadrali_Resume.pdf"
               className="px-6 py-3 border-2 border-black rounded-[2rem] font-medium hover:bg-black hover:text-paper transition-colors duration-300 w-full text-center block"
             >

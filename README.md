@@ -11,6 +11,15 @@ Personal portfolio for **Chirag Vadrali**, Hardware System Design Engineer and v
 
 ---
 
+## Links
+
+- **Live portfolio:** [chirag-vadrali.github.io/portfolio](https://chirag-vadrali.github.io/portfolio/)
+- **Repository:** [github.com/Chirag-Vadrali/portfolio](https://github.com/Chirag-Vadrali/portfolio)
+
+The previous GitHub Pages address is no longer valid after the username change. Update any shared links to use the live portfolio URL above.
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -74,6 +83,20 @@ npm run build
 ```
 
 Dev server runs at **http://localhost:5173**
+
+---
+
+## Deployment
+
+The site deploys to GitHub Pages automatically through the workflow in `.github/workflows/deploy.yml` whenever changes are pushed to `main`.
+
+```bash
+git add .
+git commit -m "Update portfolio"
+git push origin main
+```
+
+After the GitHub Actions workflow completes, the portfolio is available at [https://chirag-vadrali.github.io/portfolio/](https://chirag-vadrali.github.io/portfolio/). In the repository's **Settings → Pages**, set the deployment source to **GitHub Actions**.
 
 ---
 
